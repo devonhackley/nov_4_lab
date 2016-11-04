@@ -1,0 +1,19 @@
+nav li{
+  display: inline-block;
+}
+
+#paragraphSection {
+  display: inline-block;
+}
+
+#weather {
+  float: right;
+}
+
+#socialNavLeft li {
+display: inline-block;
+}
+
+#socialNavRight li {
+  display: inline-block;
+}
