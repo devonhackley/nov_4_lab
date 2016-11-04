@@ -44,7 +44,7 @@ function mtToEt (number) {
 function convertUnits () {
   var value = document.getElementById('measurement');
   var unit  = document.getElementById('units');
-
+  console.log(value, unit);
   if (unit === 'in-cm'){
     inTocm(value);
   } else if (unit === 'cm-in') {
@@ -68,4 +68,5 @@ function convertUnits () {
   }
 }
 
-convertUnits();
+var button = document.getElementById('convert-number');
+button.addEventListener('click', convertUnits);
