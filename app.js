@@ -1,39 +1,49 @@
 'use strict';
 
 function inTocm (number) {
-  return number * 2.54;
+  var num = number * 2.54;
+  alert('The anser is: ' + num);
 }
 function cmToIn (number) {
-  return number / 2.53;
+  var num = number / 2.53;
+  alert('The anser is: ' + num);
 }
 function flToMl (number) {
-  return number / 29.57;
+  var num = number / 29.57;
+  alert('The anser is: ' + num);
 }
 function mlToFl (number) {
-  return number * 0.033814;
+  var num = number * 0.033814;
+  alert('The anser is: ' + num);
 }
 function miToKm (number) {
-  return number * 1.6;
+  var num = number * 1.6;
+  alert('The anser is: ' + num);
 }
 function kmToMi (number) {
-  return number * 0.62;
+  var num = number * 0.62;
+  alert('The anser is: ' + num);
 }
 function lbToKg (number) {
-  return number * 0.45359;
+  var num = number * 0.45359;
+  alert('The anser is: ' + num);
 }
 function kgToLb (number){
-  return number / 0.45359;
+  var num = number / 0.45359;
+  alert('The anser is: ' + num);
 }
 function etToMt (number) {
-  return number / 1.1023;
+  var num = number / 1.1023;
+  alert('The anser is: ' + num);
 }
 function mtToEt (number) {
-  return number * 1.1023;
+  var num = number * 1.1023;
+  alert('The anser is: ' + num);
 }
 
 function convertUnits () {
-  var value = getElementById('measurement');
-  var unit  = getElementById('units');
+  var value = document.getElementById('measurement');
+  var unit  = document.getElementById('units');
 
   if (unit === 'in-cm'){
     inTocm(value);
