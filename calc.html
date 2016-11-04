@@ -11,8 +11,19 @@
         <form id= "calculator" method="post">
           <fieldset id= "fieldset"><legend>Convert Your Measurements</legend>
             <p>Convert: <input id= "measurement" type="number"  name= "measurement" placeholder="Enter a number to be converted"></p>
-
-            <button id = "convert-number" type="button" name = "convert-number"></button>
+            <p>Select the units of conversion: </p>
+            <select id= "units" name="units">
+              <option value = "in-cm">inches to centimeters </option>
+              <option value = "cm-in">centimeters to inches </option>
+              <option value = "floz-mL">fluid ounces to milliliters</option>
+              <option value = "mL-floz"> mililiters to fluid ounces</option>
+              <option value = "mi-km"> miles to kilometers </option>
+              <option value = "lbs-kg"> pounds to kilogram </option>
+              <option value = "kg-lbs"> kilograms to pounds </option>
+              <option value = "eshitton-mshitton"> English shit-ton to metric shit-ton </option>
+              <option value = "mshitton-eshitton"> metric shit-ton to english shit-ton </option>
+            </select>
+            <button id = "convert-number" type="button" name = "convert-number">Calculate</button>
           </fieldset>
         </form>
       </section>
